@@ -1,0 +1,90 @@
+.arriba{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.aviation{
+    width: 20%;
+    height: 20%;
+}
+
+.btnmenu {
+    background-color: transparent;
+    color: black;
+}
+.btnmenu:hover {
+    cursor: pointer;
+    background-color: #A71B2C;
+    border-radius: 18px;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+}
+
+/* //////////////////////INICIO */
+
+.inicio1{
+    background-image: url('imagenes/homepage_imagen-11.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.inicio2{
+    background-image: url('imagenes/operacion_nacional-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* //////////////////////NOSOTROS */
+
+
+
+.nosotros{
+    background-image: url('imagenes/acerca-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ////////////////HISTORIA */
+
+.historia{
+    background-image: url('imagenes/historia-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ////////////////OBJETIVO */
+
+.objetivo{
+    background-image: url('imagenes/objetivo-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ///////////////////POLÍTICA */
+
+.politica{
+    background-image: url('imagenes/politica-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ///////////////////MISION */
+
+.mision{
+    background-image: url('imagenes/mision-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ///////////////////VISION */
+
+.vision{
+    background-image: url('imagenes/vision-02.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
