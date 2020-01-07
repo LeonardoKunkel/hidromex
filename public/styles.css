@@ -2,14 +2,15 @@
     position: fixed;
     z-index: 100;
     background-color: white;
+    display: flex;
     width: 100%;
     left: 0;
     top: 0;
 }
 
 .aviation{
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
 }
 
 .btnmenu {
@@ -23,6 +24,14 @@
     margin: 0px;
     padding: 5px;
     color: white;
+}
+.lineaenca{
+    border-style: solid;
+    width: 570px;
+    height: 3px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+    float: right;
 }
 
 /* //////////////////////INICIO */
@@ -41,50 +50,146 @@
 
 /* //////////////////////NOSOTROS */
 
-
+.textnos{
+    float: right;
+    color: #A71B2C;
+}
+.lineanos{
+    border-style: solid;
+    width: 570px;
+    height: 3px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+    float: right;
+}
 
 .nosotros{
-    background-image: url('imagenes/acerca-02-11.png');
+    background-image: url('imagenes/nosotros2.png');
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.nosotros2{
+    background-color: #4A7AA2;
+    color: white;
+    padding: 61px;
+    font-size: 18px;
+    text-align: justify;
 }
 
 /* ////////////////HISTORIA */
 
+.texthist{
+    color: #A71B2C;
+    margin-left: 160px;
+    padding: 10px;
+
+}
 .historia{
-    background-image: url('imagenes/historia-02.png');
+    background-image: url('imagenes/historia.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+.lineahist{
+    border-style: solid;
+    width: 300px;
+    height: 3px;
+    margin-top: 5px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+}
 /* ////////////////OBJETIVO */
 
+.obj{
+    color: #A71B2C;
+}
 .objetivo{
-    background-image: url('imagenes/objetivo-02.png');
+    background-image: url('imagenes/nosotros_aviones-11.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 30%;
+}
+.textobj{
+    color: #4A7AA2;
+    font-size: 17px;
 }
 
 /* ///////////////////POLÍTICA */
 
-.politica{
-    background-image: url('imagenes/politica-02.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+.imgpol{
+    width: auto;
+    height: 12%;
+    margin-top: 30px;
+}
+.lineapol{
+    border-style: solid;
+    width: 350px;
+    height: 3px;
+    margin-top: 5px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+}
+.titulopol{
+    margin: 0px 100px;
+    color: #A71B2C;
+    font-size: 40px;
+}
+.listapol{
+    margin-left: 10px;
+    padding: 0;
+}
+.textpol1{
+    color: #434142;
+    text-align: justify;
+    font-size: 18px;
+    margin: 10px 100px;
 }
 
 /* ///////////////////MISION */
 
 .mision{
-    background-image: url('imagenes/mision-02.png');
+    background-image: url('imagenes/mision_imagen.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
+    background-position: right 10px;
 }
-
+.titulomis{
+    float: right;
+    color: #A71B2C;
+    font-size: 40px;
+}
+.titulofon{
+    background-color: white;
+    border-radius: 20px;
+}
+.lineamis{
+    border-style: solid;
+    float: right;
+    width: 400px;
+    height: 3px;
+    margin-top: 10px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+}
+.textmis{
+    color: #3991B9;
+    text-align: justify;
+    margin: 40px 40px;
+    font-size: 19px;
+    padding: 40px;
+    background-color: #f3f3f3;
+}
 /* ///////////////////VISION */
 
 .vision{
-    background-image: url('imagenes/vision-02.png');
+    background-image: url('imagenes/vision-fondo.png');
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.titulo{
+    
+}
+.titulovis{
+    float: left;
+    color: #A71B2C;
+    font-size: 40px;
 }
