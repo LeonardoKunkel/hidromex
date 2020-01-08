@@ -1,6 +1,10 @@
 .logo{
     width: 30% !important;
 }
+.navbar1{
+    position: fixed;
+    z-index: 100;
+}
 .nav-link:hover{
    background-color: #a71b2c;
    border-radius: 15px;
@@ -295,7 +299,7 @@ footer{
 .redessoc{
     width: 25px;
     height: auto;
-    margin: 50px 20px;
+    margin: 50px 10px;
     float: right;
 }
 iframe {
