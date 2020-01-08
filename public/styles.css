@@ -1,39 +1,23 @@
-.arriba{
-    position: fixed;
-    z-index: 100;
-    background-color: white;
-    display: flex;
-    width: 100%;
-    left: 0;
-    top: 0;
+.logo{
+    width: 30% !important;
 }
-
-.aviation{
-    width: 25%;
-    height: 25%;
+.nav-link:hover{
+   background-color: #a71b2c;
+   border-radius: 15px;
+   text-align: center;
 }
-
-.btnmenu {
-    background-color: transparent;
-    color: black;
-}
-.btnmenu:hover {
-    cursor: pointer;
-    background-color: #A71B2C;
-    border-radius: 18px;
-    margin: 0px;
-    padding: 5px;
-    color: white;
-}
-.lineaenca{
-    border-style: solid;
-    width: 570px;
+.lineaAzul{
+    background-color: #5884AB;
+    width: 90px;
     height: 3px;
-    border-color: #4A7AA2;
-    background-color: #4A7AA2;
-    float: right;
 }
-
+.fondoGris{
+    background-image: url('imagenes/HP_fondogris.png');
+    width: 90%;
+}
+.estados{
+    font-size: 8px;
+}
 /* //////////////////////INICIO */
 
 .inicio1{
@@ -41,18 +25,12 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-.inicio2{
-    background-image: url('imagenes/op_aviacion-11.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 /* //////////////////////NOSOTROS */
 
 .textnos{
     float: right;
     color: #A71B2C;
+    font-family: 'Audiowide', cursive;;
 }
 .lineanos{
     border-style: solid;
@@ -75,33 +53,48 @@
     padding: 61px;
     font-size: 18px;
     text-align: justify;
+    font-family: 'Audiowide', cursive;;
 }
 
 /* ////////////////HISTORIA */
 
-.texthist{
-    color: #A71B2C;
-    margin-left: 160px;
-    padding: 10px;
-
-}
 .historia{
-    background-image: url('imagenes/historia.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    width: 100%;
 }
-.lineahist{
-    border-style: solid;
-    width: 300px;
-    height: 3px;
-    margin-top: 5px;
-    border-color: #4A7AA2;
-    background-color: #4A7AA2;
+    
+.historiaCel{
+    display: none;
+}
+.titulos{
+    font-family: 'Audiowide', cursive;;
+    color: #A71B2C;
+}
+.titulo2{
+    
+    font-family: 'Audiowide', cursive;;
+    color: #5884AB;
+}
+
+@media(max-width:990px){
+    .historiaCel{
+        display: contents;
+    }
+.historia{
+    display: none;
+}
+ .lineaAzul{
+     display: none;
+ }
+ .estados{
+     font-size: 30px;
+ }
+ 
 }
 /* ////////////////OBJETIVO */
 
 .obj{
     color: #A71B2C;
+    font-family: 'Audiowide', cursive;;
 }
 .objetivo{
     background-image: url('imagenes/nosotros_aviones-11.png');
@@ -109,16 +102,19 @@
     background-size: 30%;
 }
 .textobj{
+    background-color: #f3f3f3;
     color: #4A7AA2;
     font-size: 17px;
+    padding: 10px;
+    font-family: 'Audiowide', cursive;;
 }
 
 /* ///////////////////POLÍTICA */
 
-.imgpol{
-    width: auto;
-    height: 12%;
-    margin-top: 30px;
+.imagenpol{
+    background-image: url('imagenes/pol-torres.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .lineapol{
     border-style: solid;
@@ -132,6 +128,7 @@
     margin: 0px 100px;
     color: #A71B2C;
     font-size: 40px;
+    font-family: 'Audiowide', cursive;;
 }
 .listapol{
     margin-left: 10px;
@@ -142,8 +139,11 @@
     text-align: justify;
     font-size: 18px;
     margin: 10px 100px;
+    font-family: 'Audiowide', cursive;;
 }
-
+.listapol{
+    font-family: 'Audiowide', cursive;;
+}
 /* ///////////////////MISION */
 
 .mision{
@@ -156,6 +156,7 @@
     float: right;
     color: #A71B2C;
     font-size: 40px;
+    font-family: 'Audiowide', cursive;;
 }
 .titulofon{
     background-color: white;
@@ -177,19 +178,127 @@
     font-size: 19px;
     padding: 40px;
     background-color: #f3f3f3;
+    font-family: 'Audiowide', cursive;;
 }
 /* ///////////////////VISION */
 
 .vision{
-    background-image: url('imagenes/vision-fondo.png');
+    background-image: url('imagenes/vision_fondo.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
+    background-position: left 10px;
 }
-.titulo{
-    
+.titvis{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 .titulovis{
     float: left;
     color: #A71B2C;
     font-size: 40px;
+    font-family: 'Audiowide', cursive;;
+}
+.lineavis{
+    border-style: solid;
+    float: left;
+    width: 400px;
+    height: 3px;
+    margin-top: 10px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+}
+.textvis1{
+    color: #3991B9;
+    text-align: justify;
+    margin: 40px 40px;
+    font-size: 17px;
+    padding: 40px;
+    background-color: #f3f3f3;
+    font-family: 'Audiowide', cursive;;
+}
+.textvis2{
+    color: #808080;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Audiowide', cursive;;
+}
+/*////////////////////////////CONTACTO*/
+.titulocont{
+    margin-left: 100px;
+    color: #A71B2C;
+    font-size: 40px;
+    font-family: 'Audiowide', cursive;;
+}
+.lineacont{
+    border-style: solid;
+    float: left;
+    width: 300px;
+    height: 3px;
+    margin-top: 10px;
+    border-color: #4A7AA2;
+    background-color: #4A7AA2;
+}
+.fondocont1{
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+.fondocont2{
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+.textcont1{
+    color: #058EAA;
+    font-size: 17px;
+    font-family: 'Audiowide', cursive;;
+}
+.textcont2{
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Audiowide', cursive;;
+}
+.iconocont{
+    width: 25px;
+    height: auto;
+    margin: 0px 15px;
+}
+.textcont3{
+    font-size: 13px;
+    color: #808080;
+    font-family: 'Audiowide', cursive;;
+}
+
+/*/////////////////////PIE DE PÁGINA*/
+.logoblan{
+    height: 110px;
+    width: auto;
+    padding: 20px;
+}
+.textpie1{
+    font-size: 10px;
+    margin: 40px 0px;
+}
+footer{
+    width: 100%;
+    background-color: #1A81AF;
+    color: white;
+}
+.container-body{
+    display: flex;
+}
+.columna1{
+    max-width: 400px;
+}
+.columna2{
+    max-width: 200px;
+}
+.redessoc{
+    width: 25px;
+    height: auto;
+    margin: 50px 20px;
+    float: right;
+}
+iframe {
+    max-width: 100%;
+    height: auto;
 }
